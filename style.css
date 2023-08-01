@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    /* background-image: url('/quote.jpg'); */
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    border: 2px solid black;
+    font-size: 1.2rem;
+    background-color: azure;
+    padding:20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.main-content{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: palegoldenrod;
+    padding: 40px 20px;
+    margin-top: 20px;
+    overflow: auto;
+
+}
+.main-content .text-area{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: rebeccapurple;
+}
+.person{
+    font: optional;
+    font-size: 20px;
+    font-weight: 20px;
+    color: red;
+}
+#quote{
+    font-size: 20px;
+    border: 3px solid black;
+    background-color: #fff;
+    padding: 10px 15px; 
+    margin:20px;
+    border-radius: 3px;
+}
+#new{
+    font-size: 20px;
+    border: 3px solid black;
+    background-color: #fff;
+    padding: 10px 15px; 
+    margin:20px;
+    border-radius: 3px;
+}
+#new:hover{
+    cursor: pointer;
+    background-color: rebeccapurple;
+}
